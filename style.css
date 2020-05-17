@@ -22,6 +22,10 @@
 
 
 /* /* ↓↓index.html用 */
+.menu {
+  position: fixed;
+  top: -350px;
+}
 /* Menu画面 */
 .mainLogo {
   margin: 0 auto;
@@ -61,6 +65,21 @@
   font-family: arial unicode ms;
   animation: fadeIn 1s ease 0s 1 normal;
     -webkit-animation: fadeIn 1s ease 0s 1 normal;
+}
+.titleMenu {
+  top: 20px;
+  right: 230px;
+  font-size: 1.4rem;
+}
+.titleAbout {
+  top: 60px;
+  right: 230px;
+  font-size: 1.4rem;
+}
+.titleOur {
+  top: 100px;
+  right: 230px;
+  font-size: 1.4rem;
 }
 
 /* About画面 */
@@ -105,7 +124,7 @@
   }
   .phoneLogo {
     display: block;
-    width: 370px;
+    width: 360px;
     height: 800px;
   }
   .topTitle {

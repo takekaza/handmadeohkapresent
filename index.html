@@ -14,14 +14,28 @@
   </head>
   <body>
     <div class="wrapper">
+      <div class="navMenu" id="navMenu">
+        <div class="menu">
+          <ul>
+            <a href="#MENU"><li class="menuList">MENU</li></a>
+            <a href="#ABOUT"><li class="menuList">ABOUT</li></a>
+            <a href="#OUR"><li class="menuList">OUR SERVICE</li></a>
+          </ul>
+        </div>
+      </div>
+      <div class="navHead" id="navHead">
+      	<span class="nav_line nav_line1"></span>
+      	<span class="nav_line nav_line2"></span>
+      	<span class="nav_line nav_line3"></span>
+      </div>
       <div class="mainLogo" id="MENU" name="#MENU">
         <img class="pcLogo" src="img/IMG_8129.jpg" alt="handmade ギフト">
         <img class="phoneLogo" src="img/IMG_8128.jpg" alt="handmade ギフト">
         <p class="topTitle">今、想いを</p>
         <p class="bottomTitle">伝える. . .</p>
-        <a href="#MENU"style="top: 20px; right: 230px; font-size: 1.4rem;">MENU</a>
-        <a href="#ABOUT"style="top: 60px; right: 230px; font-size: 1.4rem;">ABOUT</a>
-        <a href="#OUR"style="top: 100px; right: 230px; font-size: 1.4rem;">OUR SERVICE</a>
+        <a class="titleMenu" href="#MENU">MENU</a>
+        <a class="titleAbout" href="#ABOUT">ABOUT</a>
+        <a class="titleOur" href="#OUR">OUR SERVICE</a>
       </div>
 
       <section class="aboutContent">
@@ -33,13 +47,15 @@
       </section>
     </div>
     <script>
-      // const navHead = document.getElementById('navHead');
-      // const navMenu =
-      // document.getElementById('navMenu');
-      // navHead.addEventListener('click', function() {
-      //   navHead.classList.toggle('clicked');
-      //   navMenu.classList.toggle('clicked');
-      // });
+      const navHead = document.getElementById('navHead');
+      const navMenu =
+      document.getElementById('navMenu');
+      navHead.addEventListener('click', function() {
+        navHead.classList.toggle('clicked');
+        navMenu.classList.toggle('clicked');
+      });
+    </script>
+    <script>
       $('a[href^="#"]').click(function() {
         // スクロールの速度
         var speed = 400; // ミリ秒で記述
