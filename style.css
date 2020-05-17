@@ -33,6 +33,7 @@
   position: relative;
   animation: fadeIn 1s ease 0s 1 normal;
     -webkit-animation: fadeIn 1s ease 0s 1 normal;
+  background-color: #fdfdfd;
 }
 .pcLogo {
   width: -webkit-fill-available;
