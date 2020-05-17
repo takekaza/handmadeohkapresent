@@ -114,7 +114,7 @@
 @media screen and (max-width : 800px) {
   .mainLogo {
     margin: 0 auto;
-    padding: 30px 10px;
+    padding: 30px 10px 50px;
     position: relative;
     animation: fadeIn 1s ease 0s 1 normal;
       -webkit-animation: fadeIn 1s ease 0s 1 normal;
@@ -152,8 +152,7 @@
     position: relative;
     width: 40px;
     height: 40px;
-    top: 15px;
-    left: 15px;
+    left: 5px;
     cursor: pointer;
   }
   .nav_line {
