@@ -158,7 +158,7 @@
     position: absolute;
     left: 10px;
     width: 38px;
-    height: 3px;
+    height: 1px;
     background-color: #333333;
     transition: all 0.3s;
   }
