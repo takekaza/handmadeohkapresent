@@ -39,11 +39,11 @@
       </div>
 
       <section class="aboutContent">
-        <a id="ABOUT" name="#ABOUT" class="title" style="left: 44%;">ABOUT</a>
+        <a id="ABOUT" name="#ABOUT" class="titleab">ABOUT</a>
       </section>
 
       <section class="ourContent">
-        <a id="OUR" name="#OUR" class="title" style="left: 42%;">OUR SERVICE</a>
+        <a id="OUR" name="#OUR" class="titleou">OUR SERVICE</a>
       </section>
     </div>
     <script>
@@ -62,6 +62,32 @@
     });
     </script> -->
     <script>
+      $(function(){
+        $(window).scroll(function (){
+        $('.topTitle').each(function(){
+            var elemPos = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > elemPos - windowHeight + 100){
+                $(this).addClass('effect-scroll');
+            }
+        });
+        });
+      });
+      $(function(){
+        $(window).scroll(function (){
+        $('.bottomTitle').each(function(){
+            var elemPos = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > elemPos - windowHeight + 400){
+                $(this).addClass('effect-scroll');
+            }
+        });
+        });
+      });
+    </script>
+    <script>
       $('a[href^="#"]').click(function() {
         $('.navHead').trigger('click');
         // スクロールの速度
@@ -76,7 +102,23 @@
       });
     </script>
     <script>
-      ScrollReveal().reveal('.title', {
+      // ScrollReveal().reveal('.topTitle', {
+      //   duration: 4000, // アニメーションの完了にかかる時間
+      //   viewFactor: 1, // 0~1,どれくらい見えたら実行するか
+      //   reset: false,  // 何回もアニメーション表示するか
+      //   origin: 'left',
+      //   distance: '90px',
+      //   scale: 1
+      // });
+      ScrollReveal().reveal('.titleou', {
+        duration: 1200, // アニメーションの完了にかかる時間
+        viewFactor: 0.2, // 0~1,どれくらい見えたら実行するか
+        reset: true,  // 何回もアニメーション表示するか
+        origin: 'left',
+        distance: '90px',
+        scale: 1
+      });
+      ScrollReveal().reveal('.titleab', {
         duration: 1200, // アニメーションの完了にかかる時間
         viewFactor: 0.2, // 0~1,どれくらい見えたら実行するか
         reset: true,  // 何回もアニメーション表示するか
