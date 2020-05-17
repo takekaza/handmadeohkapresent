@@ -159,7 +159,7 @@
   .nav_line {
     position: absolute;
     left: 10px;
-    width: 30px;
+    width: 25px;
     height: 1px;
     background-color: #333333;
     transition: all 0.3s;

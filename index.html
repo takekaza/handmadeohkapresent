@@ -63,6 +63,7 @@
     </script> -->
     <script>
       $('a[href^="#"]').click(function() {
+        $('.navHead').trigger('click');
         // スクロールの速度
         var speed = 400; // ミリ秒で記述
         var href = $(this).attr("href");
