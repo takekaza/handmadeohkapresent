@@ -187,11 +187,12 @@
 
   /*/* ↓↓ハンバーガーメニュー */
   .navHead {
-    position: relative;
+    position: fixed;
     width: 40px;
     height: 40px;
-    left: 10px;
+    left: 15px;
     cursor: pointer;
+    z-index: 97;
   }
   .nav_line {
     position: absolute;
