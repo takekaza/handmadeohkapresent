@@ -30,6 +30,7 @@
 /* Menu画面 */
 .mainLogo {
   margin: 0 auto;
+  height: 1500px;
   padding: 200px 300px;
   position: relative;
   animation: fadeIn 1s ease 0s 1 normal;
@@ -123,6 +124,7 @@
 @media screen and (max-width : 800px) {
   .mainLogo {
     margin: 0 auto;
+    height: auto;
     padding: 30px 10px 70px;
     position: relative;
     animation: fadeIn 1s ease 0s 1 normal;
