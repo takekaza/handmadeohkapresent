@@ -39,6 +39,7 @@
 }
 .pcLogo {
   width: -webkit-fill-available;
+  max-width: 100%;
 }
 .phoneLogo {
   display: none;
