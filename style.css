@@ -97,12 +97,12 @@
 .titleAbout {
   top: 60px;
   right: 230px;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 .titleOur {
   top: 100px;
   right: 230px;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 
 /* About画面 */
@@ -117,12 +117,12 @@
 .titleab {
   position: absolute;
   left: 44%;
-  font-size: 2.3rem;
+  font-size: 1.1rem;
 }
 .titleou {
   position: absolute;
   left: 42%;
-  font-size: 2.3rem;
+  font-size: 1.1rem;
 }
 
 
