@@ -122,7 +122,12 @@
 
 
 /*/* ↓↓レスポンシブ */
-@media screen and (max-width : 800px) {
+@media screen and (max-width : 1275px) {
+  .mainLogo {
+    padding: 130px 150px;
+  }
+}
+@media screen and (max-width : 768px) {
   .mainLogo {
     margin: 0 auto;
     height: auto;
