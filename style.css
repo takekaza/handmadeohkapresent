@@ -276,6 +276,27 @@
     display: none;
   }
 
+  /* Title画面 */
+  .titleContent {
+    margin: 0 auto;
+    margin-top: -15px;
+  }
+  .titleContentMain {
+    font-size: 4.3rem;
+  }
+  .titleContentSub {
+    font-size: 1.3rem;
+  }
+  .spaceTitleHand {
+    padding-right: 20px;
+  }
+  .spaceTitle {
+    padding: 0 20px;
+  }
+  .spaceTitlePre {
+    padding-left: 20px;
+  }
+
   /* about ourservice画面 */
   .titleab {
     /* left: 39%; */
