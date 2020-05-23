@@ -19,7 +19,7 @@
       <div class="navMenu" id="navMenu">
         <div class="menu">
           <ul>
-            <a class="menuLink" href="#MENU"><li class="menuList">MENU</li></a>
+            <a class="menuLink" href="#MENU"><li class="menuList">TOP</li></a>
             <a class="menuLink" href="#ABOUT"><li class="menuList">ABOUT</li></a>
             <a class="menuLink" href="#OUR"><li class="menuList">OUR SERVICE</li></a>
           </ul>
@@ -35,10 +35,16 @@
         <img class="phoneLogo" src="img/imgPhone.jpg" alt="handmade ギフト">
         <p class="topTitle">今、想いを</p>
         <p class="bottomTitle">伝える. . .</p>
-        <a class="titleMenu" href="#MENU">MENU</a>
+        <a class="titleMenu" href="#MENU">TOP</a>
         <a class="titleAbout" href="#ABOUT">ABOUT</a>
         <a class="titleOur" href="#OUR">OUR SERVICE</a>
       </div>
+      <section class="titleContent">
+        <h1 class="titleContentMain">H . O . P</h1>
+        <p class="titleContentSub">
+          <span class="spaceTitleHand">Handmade</span><span class="spaceTitle">Ohka</span><span class="spaceTitlePre">Present</span>
+        </p>
+      </section>
 
       <section class="aboutContent">
         <a id="ABOUT" name="#ABOUT" class="titleab">ABOUT</a>
@@ -93,7 +99,7 @@
       $('a[href^="#"]').click(function() {
         $('.navHead').trigger('click');
         // スクロールの速度
-        var speed = 400; // ミリ秒で記述
+        var speed = 700; // ミリ秒で記述
         var href = $(this).attr("href");
         var target = $(href == "#" || href == "" ? 'html' : href);
         var position = target.offset().top;
@@ -117,7 +123,7 @@
         viewFactor: 0.2, // 0~1,どれくらい見えたら実行するか
         reset: true,  // 何回もアニメーション表示するか
         origin: 'left',
-        distance: '90px',
+        distance: '190px',
         scale: 1
       });
       ScrollReveal().reveal('.titleab', {
@@ -125,9 +131,27 @@
         viewFactor: 0.2, // 0~1,どれくらい見えたら実行するか
         reset: true,  // 何回もアニメーション表示するか
         origin: 'left',
-        distance: '90px',
+        distance: '190px',
         scale: 1
       });
+      ScrollReveal().reveal('.titleContentMain', {
+        duration: 1350, // アニメーションの完了にかかる時間
+        viewFactor: 0.3, // 0~1,どれくらい見えたら実行するか
+        reset: true,  // 何回もアニメーション表示するか
+        origin: 'bottom',
+        distance: '290px',
+        scale: 0.5
+      });
+      ScrollReveal().reveal('.titleContentSub', {
+        duration: 1350, // アニメーションの完了にかかる時間
+        viewFactor: 0.3, // 0~1,どれくらい見えたら実行するか
+        reset: true,  // 何回もアニメーション表示するか
+        origin: 'bottom',
+        distance: '250px',
+        scale: 0.5
+      });
+
+
       // var ScrollrevealFade = {
       //   origin: 'left',
       //   distance: '0px',//移動範囲
