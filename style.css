@@ -207,6 +207,7 @@ options = {
 }
 .aboutBottom {
   font-size: 1.8rem;
+  line-height: 1.9;
 }
 
 
@@ -220,14 +221,34 @@ options = {
   background-color: #ffffff;
 }
 .titleou {
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   display: block;
   font-size: 1.1rem;
   font-family: arial unicode ms;
   letter-spacing: 3px;
 }
-
-
+.ourMid {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  line-height: 1.9;
+}
+.ourH2 {
+  position: relative;
+  right: 290px;
+  font-size: 2rem;
+  padding: 30px 0;
+}
+.ourUl {
+  /* padding-left: 350px; */
+  text-align: center;
+}
+#ourUlId .ourList {
+  display: inline-block;
+  text-align: left;
+  line-height: 1.9;
+  letter-spacing: 2.5px;
+  font-size: 1.4rem;
+}
 
 
 /* /* ↑↑index.html用 */
@@ -265,6 +286,7 @@ options = {
     right: 120px;
     font-size: 0.7rem;
   }
+
 }
 @media screen and (max-width : 768px) {
   .mainLogo {
@@ -333,8 +355,34 @@ options = {
   .titleab {
     /* left: 39%; */
   }
+  .aboutContent {
+    margin: 0 auto;
+    padding: 140px 10px;
+  }
+  .aboutBottom {
+    font-size: 1.3rem;
+    line-height: 2.0;
+  }
+
   .titleou {
     /* left: 32%; */
+  }
+  .ourContent {
+    margin: 0 auto;
+    padding: 70px 10px;
+  }
+  .ourH2 {
+    position: relative;
+    right: 0;
+    font-size: 2rem;
+    padding: 30px 0;
+  }
+  #ourUlId .ourList {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    font-size: 1rem;
   }
 
 
