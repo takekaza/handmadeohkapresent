@@ -161,40 +161,72 @@
 /* About画面 */
 .aboutContent {
   margin: 0 auto;
-  padding: 140px 20px;
+  padding: 140px 80px;
   text-align: center;
   max-width: 100%;
   min-height: 100vh;
   position: relative;
   background-color: #ffffff;
 }
+/* .aboutContent.data-delighter {
+  transition: all .3s ease-out;
+      transform: translateX(-100%);
+      opacity: 0;
+}
+.aboutContent.delighter.started {
+      transform: none;
+      opacity: 1;
+}
+.aboutContent.delighter.started.ended {
+  border: solid red 10px;
+}
+options = {
+    attribute:  'data-delighter',
+    classNames: ['delighter', 'started', 'ended'],
+    start:      0.75, // default start threshold
+    end:        0.75, // default end threshold
+    autoInit:   true  // initialize when DOMContentLoaded
+  } */
+
 .titleab {
-  /* position: absolute;
-  left: 44%; */
+  padding-bottom: 30px;
   display: block;
   font-size: 1.1rem;
   font-family: arial unicode ms;
   letter-spacing: 3px;
 }
-.titleou {
-  /* position: absolute;
-  left: 42%; */
+.aboutBig {
+  font-size: 4rem;
+}
+.aboutMid {
+  font-size: 2rem;
   display: block;
-  font-size: 1.1rem;
-  font-family: arial unicode ms;
-  letter-spacing: 3px;
+}
+.aboutCen {
+  padding: 20px 0;
+}
+.aboutBottom {
+  font-size: 1.8rem;
 }
 
 
 /* Ourservice画面 */
 .ourContent {
   margin: 0 auto;
-  padding: 70px 20px;
+  padding: 70px 80px;
   text-align: center;
   max-width: 100%;
   min-height: 100vh;
   background-color: #ffffff;
 }
+.titleou {
+  padding-bottom: 30px;
+  display: block;
+  font-size: 1.1rem;
+  font-family: arial unicode ms;
+  letter-spacing: 3px;
+}
+
 
 
 

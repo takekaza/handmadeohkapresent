@@ -11,6 +11,7 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js">
     </script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- <script type="text/javascript" src="delighters.js"></script> -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <meta name="robots" content="nofollow">
   </head>
@@ -46,12 +47,40 @@
         </p>
       </section>
 
-      <section class="aboutContent">
+      <section class="aboutContent" data-delighter>
         <a id="ABOUT" name="#ABOUT" class="titleab">ABOUT</a>
+        <p class="aboutBig">あなた</p>
+        <p class="aboutMid">から</p>
+        <p class="aboutBig">大切な方</p>
+        <p class="aboutMid">へ</p>
+        <p class="aboutMid"><span class="aboutBig">想い</span>が詰まった</p>
+        <p class="aboutMid"><span class="aboutBig">プレゼント</span>を。</p>
+        <p class="aboutCen">
+          <p class="aboutBottom">「思いをあの人に伝えたい。</p>
+          <p class="aboutBottom">そして笑顔になって欲しい。」を</p>
+          <p class="aboutBottom">ただプレゼントをするのではなく、</p>
+          <p class="aboutBottom">あなたの手が加わった</p>
+          <p class="aboutBottom">簡単ですぐに出来るハンドメイド</p>
+          <p class="aboutBottom">革製品をプレゼントする</p>
+          <p class="aboutBottom">　独自の新しいサービス。</p>
+        </p>
       </section>
 
       <section class="ourContent">
         <a id="OUR" name="#OUR" class="titleou">OUR SERVICE</a>
+        <p>商品の注文を受ける。</p>
+        <p>↓</p>
+        <p>H.O.Pで商品の仕上げ前状態を作る（縫製品前状態）</p>
+        <p>↓</p>
+        <p>お客様へ商品をお届け（針と糸を付属しています。）</p>
+        <p></p>
+        <h2>Attention</h2>
+        <ul>
+          <li>・縫い方を載せた説明書書き。</li>
+          <li>・万が一わからない不明点等があれば、予約制でTV通話にて対応。</li>
+          <li>・付属品の紛失、追加注文承っております。</li>
+          <li>・縫製中のケガ等におきましては、一切責任を負いません。</li>
+        </ul>
       </section>
     </div>
     <script>
@@ -148,6 +177,14 @@
         reset: true,  // 何回もアニメーション表示するか
         origin: 'bottom',
         distance: '250px',
+        scale: 0.5
+      });
+      ScrollReveal().reveal('.aboutBig', {
+        duration: 1350, // アニメーションの完了にかかる時間
+        viewFactor: 0.3, // 0~1,どれくらい見えたら実行するか
+        reset: true,  // 何回もアニメーション表示するか
+        origin: 'left',
+        distance: '850px',
         scale: 0.5
       });
 
