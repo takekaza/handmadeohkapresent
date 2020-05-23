@@ -34,8 +34,8 @@
   margin-top: -60px;
   padding: 20px 100px 40px;
   position: relative;
-  animation: fadeIn 2s ease 0s 1 normal;
-    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+  /* animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal; */
   background-color: #ffffff;
 }
 .pcLogo {
@@ -55,29 +55,15 @@
   top: 110px;
   left: 440px;
   font-size: 2rem;
-  display: none;
-  opacity: 0;
   transform: translate(0, 45px);
   transition: all 30ms;
-}
-.topTitle.effect-scroll {
-  opacity: 1;
-  display: block;
-  transform: translate(0, 0);
 }
 .bottomTitle {
   top: 170px;
   left: 600px;
   font-size: 1.9rem;
-  display: none;
-  opacity: 0;
   transform: translate(0, 45px);
   transition: all 300ms;
-}
-.bottomTitle.effect-scroll {
-  opacity: 1;
-  display: block;
-  transform: translate(0, 0);
 }
 .mainLogo a {
   letter-spacing: 3px;
@@ -86,8 +72,8 @@
   color: #000;
   z-index: 99;
   font-family: arial unicode ms;
-  animation: fadeIn 1s ease 0s 1 normal;
-    -webkit-animation: fadeIn 1s ease 0s 1 normal;
+  /* animation: fadeIn 1s ease 0s 1 normal;
+    -webkit-animation: fadeIn 1s ease 0s 1 normal; */
 }
 .titleMenu {
   top: 20px;
@@ -242,29 +228,15 @@
     top: 55px;
     left: 110px;
     font-size: 1.7rem;
-    display: none;
-    opacity: 0;
     transform: translate(0, 45px);
     transition: all 30ms;
-  }
-  .topTitle.effect-scroll {
-    opacity: 1;
-    display: block;
-    transform: translate(0, 0);
   }
   .bottomTitle {
     top: 100px;
     left: 170px;
     font-size: 1.5rem;
-    display: none;
-    opacity: 0;
     transform: translate(0, 45px);
     transition: all 300ms;
-  }
-  .bottomTitle.effect-scroll {
-    opacity: 1;
-    display: block;
-    transform: translate(0, 0);
   }
   .titleMenu {
     display: none;
