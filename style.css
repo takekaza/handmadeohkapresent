@@ -30,7 +30,7 @@
 /* Menu画面 */
 .mainLogo {
   margin: 0 auto;
-  height: 1150px;
+  height: 1050px;
   margin-top: -60px;
   padding: 20px 100px 40px;
   position: relative;
@@ -139,7 +139,7 @@
   text-align: center;
 }
 .titleContentMain {
-  font-size: 7rem;
+  font-size: 8rem;
   display: block;
 }
 .titleContentSub {
