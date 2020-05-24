@@ -17,16 +17,15 @@
       if (!empty($_POST["message"])) {
             $message = $_POST['message'];
         }
-			// $subject = $_POST['subject'];
-			// $to = $_POST['to'];
-			// $message = $_POST['message'];
+
       $header = "From: takekazaaaaaa@gmail.com";
 
 			if(mb_send_mail($to, $subject, $message, $header)){
-				echo "メールを送信しました";
+				$alert = "メールを送信しました";
 			} else {
-				echo "メールの送信に失敗しました";
+				$alert = "メールの送信に失敗しました";
 			}
+      echo $alert
 		?>
 	</body>
 </html>
