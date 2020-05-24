@@ -18,7 +18,7 @@
         }
 
       $alert = "";
-			if(mb_send_mail("takekazaaaaaa@gmail.com", $subject, $message, "From: ".$_POST["mail"])){
+			if(mb_send_mail("takekazaaaaaa@gmail.com", $subject, $message, "From: ".$mail)){
 				$alert = "メールを送信しました";
 			} else {
 				$alert = "メールの送信に失敗しました";
