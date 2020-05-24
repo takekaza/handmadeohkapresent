@@ -269,6 +269,13 @@ options = {
 .footer {
   display: block;
   padding-top: 100px;
+  position: relative;
+}
+.Name {
+  font-size: 0.09rem;
+  position: absolute;
+  bottom: 1px;
+  padding-left: 30px;
 }
 /* /* ↑↑index.html用 */
 
@@ -310,8 +317,8 @@ options = {
 @media screen and (max-width : 768px) {
   .mainLogo {
     margin: 0 auto;
-    height: auto;
-    padding: 30px 10px 70px;
+    height: 550px;
+    padding: 30px 10px 20px;
     position: relative;
     animation: fadeIn 1s ease 0s 1 normal;
       -webkit-animation: fadeIn 1s ease 0s 1 normal;
@@ -322,7 +329,7 @@ options = {
   .phoneLogo {
     display: block;
     width: 360px;
-    height: 700px;
+    height: 600px;
     object-fit: cover;
   }
   .topTitle {
