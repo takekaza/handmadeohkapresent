@@ -14,15 +14,15 @@
 <table border="1">
 <tr>
 <td>名前</td>
-<td><?php echo $_POST["name"]; ?></td>
+<td><?php echo $_POST["subject"]; ?></td>
 </tr>
 <tr>
 <td>メールアドレス</td>
-<td><?php echo $_POST["mail"]; ?></td>
+<td><?php echo $_POST["to"]; ?></td>
 </tr>
 <tr>
 <td>問い合わせ内容</td>
-<td><?php echo $_POST["inquiry"]; ?></td>
+<td><?php echo $_POST["message"]; ?></td>
 </tr>
 </table>
 

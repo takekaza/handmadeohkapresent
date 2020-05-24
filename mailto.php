@@ -8,11 +8,11 @@
 			mb_language("Japanese");
 			mb_internal_encoding("UTF-8");
 
-			$name = $_POST['name'];
-			$mail = $_POST['mail'];
-			$inquiry = $_POST['inquiry'];
+			$subject = $_POST['subject'];
+			$to = $_POST['to'];
+			$message = $_POST['message'];
 
-			if(mb_send_mail($name, $mail, $inquiry)){
+			if(mb_send_mail($to, $subject, $message, $additional_headers)){
 				echo "メールを送信しました";
 			} else {
 				echo "メールの送信に失敗しました";
