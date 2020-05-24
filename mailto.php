@@ -17,10 +17,10 @@
       if (!empty($_POST["message"])) {
             $message = $_POST['message'];
         }
+        
+      $additional_headers = 'From: takekazaaaaaa@gmail.com';
 
-      $header = "From: takekazaaaaaa@gmail.com";
-
-			if(mb_send_mail($to, $subject, $message, $header)){
+			if(mb_send_mail($to, $subject, $message, $additional_headers)){
 				$alert = "メールを送信しました";
 			} else {
 				$alert = "メールの送信に失敗しました";
