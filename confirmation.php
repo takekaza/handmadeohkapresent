@@ -18,7 +18,7 @@
 </tr>
 <tr>
 <td>メールアドレス</td>
-<td><?php echo $_POST["to"]; ?></td>
+<td><?php echo $_POST["mail"]; ?></td>
 </tr>
 <tr>
 <td>問い合わせ内容</td>
