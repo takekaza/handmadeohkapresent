@@ -262,8 +262,9 @@ options = {
   font-size: 2rem;
 }
 .mailForm {
-  font-size: 1.3rem;
-  padding-top: 40px
+  font-size: 1.2rem;
+  padding-top: 40px;
+  color: black;
 }
 .footer {
   display: block;
