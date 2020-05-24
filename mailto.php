@@ -8,11 +8,11 @@
 			mb_language("Japanese");
 			mb_internal_encoding("UTF-8");
 
-      if (!empty($_POST["subject"])) {
-            $subject = $_POST['subject'];
-        }
       if (!empty($_POST["to"])) {
             $to = $_POST['to'];
+        }
+      if (!empty($_POST["to"])) {
+            $subject = $_POST['subject'];
         }
       if (!empty($_POST["message"])) {
             $message = $_POST['message'];
@@ -25,7 +25,7 @@
 			} else {
 				$alert = "メールの送信に失敗しました";
 			}
-      echo $alert
+      echo $alert;
 		?>
 	</body>
 </html>
