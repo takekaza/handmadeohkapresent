@@ -11,8 +11,9 @@
 			$subject = $_POST['subject'];
 			$to = $_POST['to'];
 			$message = $_POST['message'];
+      $header = "From: takekazaaaaaa@gmail.com";
 
-			if(mb_send_mail($to, $subject, $message, $additional_headers)){
+			if(mb_send_mail($to, $subject, $message, $header)){
 				echo "メールを送信しました";
 			} else {
 				echo "メールの送信に失敗しました";
