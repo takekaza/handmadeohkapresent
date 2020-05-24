@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -17,7 +16,7 @@
       if (!empty($_POST["message"])) {
             $message = $_POST['message'];
         }
-        
+
       $additional_headers = 'From: takekazaaaaaa@gmail.com';
 
 			if(mb_send_mail($to, $subject, $message, $additional_headers)){
