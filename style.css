@@ -97,7 +97,7 @@
   content: "";
   display: inline-block;
   width: 0;
-  height: 2px;
+  height: 3px;
   background: #FFD5EC;
   transition: 0.7s;
 }
@@ -108,7 +108,7 @@
   content: "";
   display: inline-block;
   width: 0;
-  height: 2px;
+  height: 3px;
   background: #FFD5EC;
   transition: 0.7s;
 }
@@ -119,7 +119,7 @@
   content: "";
   display: inline-block;
   width: 0;
-  height: 2px;
+  height: 3px;
   background: #FFD5EC;
   transition: 0.7s;
 }
@@ -189,7 +189,7 @@ options = {
   } */
 
 .titleab {
-  padding-bottom: 30px;
+  padding: 30px 0;
   display: block;
   font-size: 1.1rem;
   font-family: arial unicode ms;
@@ -221,7 +221,7 @@ options = {
   background-color: #ffffff;
 }
 .titleou {
-  padding-bottom: 60px;
+  padding: 60px 0;
   display: block;
   font-size: 1.1rem;
   font-family: arial unicode ms;
