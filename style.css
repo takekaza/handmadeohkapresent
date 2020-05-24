@@ -448,7 +448,7 @@ options = {
     left: 0;
     top: -350px;
     background-color: #FFD5EC;
-    opacity: 0.9;
+    opacity: 1;
     transition: all 0.3s;
     z-index: 98;
   }
@@ -457,7 +457,7 @@ options = {
   }
   .menuList {
     color: #fff;
-    line-height: 67px;
+    line-height: 116px;
     font-size: 1.2rem;
     padding-left: 30px;
     border-bottom: 1px solid;
