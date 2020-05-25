@@ -363,6 +363,7 @@ options = {
   }
   .titleContentMain {
     font-size: 4.3rem;
+    margin-top: -40px;
   }
   .titleContentSub {
     font-size: 1.3rem;
